@@ -37,42 +37,6 @@ Após criar a coluna **'Faturamento'**, agrupamos os dados pela coluna **'Loja'*
 - **Eixo X**: Nomes das lojas.
 - **Eixo Y**: Valor total de faturamento por loja.
 
-- relatorio = """
-Análise de Eficiência da Rede Alura Store
-------------------------------
-📄 Relatório Final:
-
-✅ Objetivo
-O objetivo deste relatório é analisar as quatro lojas fictícias da Alura Store com base nos dados de vendas, desempenho e avaliações. Com isso, identificamos a loja com menor eficiência para recomendar ao Senhor João qual loja vender, permitindo iniciar um novo empreendimento e maximizar seus recursos.
-
-📊 Critérios Analisados
-1️⃣ Faturamento por Categoria
-2️⃣ Média de Avaliação das Lojas
-3️⃣ Produtos Mais e Menos Vendidos
-4️⃣ Frete Médio por Loja
-
-🛠 Identificação da Loja com Menor Eficiência
-Baseado nos dados apresentados, identificamos qual loja está abaixo do padrão em desempenho e competitividade.
-
-⭐ Recomendação Final
-Recomendamos que o Senhor João venda a Loja 1 para financiar seu novo empreendimento. Essa decisão se apoia em dados como menor avaliação de clientes, maiores custos logísticos, e oportunidades limitadas de crescimento sustentável.
-
-📈 Oportunidade Estratégica
-A venda da Loja 1 permitirá que o Senhor João:
-✔️ Reforce lojas com melhor desempenho e satisfação.
-✔️ Expanda categorias de maior demanda, como eletrônicos.
-✔️ Otimize a experiência do cliente com foco em eficiência.
-
-Com essa estratégia, o Senhor João estará bem-posicionado para alcançar sucesso em seu novo empreendimento, fortalecendo sua rede Alura Store! 🚀
-------------------------------
-"""
-
-# Solicitação para pressionar Enter
-input("Para gerar o relatório: Pressione (Enter)")
-
-# Exibe o relatório após Enter
-print(relatorio)
-- **Estilo**: Grades leves no eixo Y e paleta gradiente azul para as barras, proporcionando clareza e elegância à visualização.
 
 - # Vendas Totais por Categoria: Análise Detalhada
 
@@ -245,3 +209,41 @@ O gráfico de dispersão foi escolhido para representar os resultados de forma c
 ## Conclusão
 
 Esta visualização destaca as lojas com maiores e menores custos médios de entrega. As informações obtidas podem ser usadas para otimizar os custos logísticos e definir estratégias de precificação mais eficazes, beneficiando tanto os negócios quanto os consumidores.
+
+
+- relatorio = """
+Análise de Eficiência da Rede Alura Store
+------------------------------
+📄 Relatório Final:
+
+✅ Objetivo
+O objetivo deste relatório é analisar as quatro lojas fictícias da Alura Store com base nos dados de vendas, desempenho e avaliações. Com isso, identificamos a loja com menor eficiência para recomendar ao Senhor João qual loja vender, permitindo iniciar um novo empreendimento e maximizar seus recursos.
+
+📊 Critérios Analisados
+1️⃣ Faturamento por Categoria
+2️⃣ Média de Avaliação das Lojas
+3️⃣ Produtos Mais e Menos Vendidos
+4️⃣ Frete Médio por Loja
+
+🛠 Identificação da Loja com Menor Eficiência
+Baseado nos dados apresentados, identificamos qual loja está abaixo do padrão em desempenho e competitividade.
+
+⭐ Recomendação Final
+Recomendamos que o Senhor João venda a Loja 1 para financiar seu novo empreendimento. Essa decisão se apoia em dados como menor avaliação de clientes, maiores custos logísticos, e oportunidades limitadas de crescimento sustentável.
+
+📈 Oportunidade Estratégica
+A venda da Loja 1 permitirá que o Senhor João:
+✔️ Reforce lojas com melhor desempenho e satisfação.
+✔️ Expanda categorias de maior demanda, como eletrônicos.
+✔️ Otimize a experiência do cliente com foco em eficiência.
+
+Com essa estratégia, o Senhor João estará bem-posicionado para alcançar sucesso em seu novo empreendimento, fortalecendo sua rede Alura Store! 🚀
+------------------------------
+"""
+
+# Solicitação para pressionar Enter
+input("Para gerar o relatório: Pressione (Enter)")
+
+# Exibe o relatório após Enter
+print(relatorio)
+- **Estilo**: Grades leves no eixo Y e paleta gradiente azul para as barras, proporcionando clareza e elegância à visualização.
