@@ -211,7 +211,14 @@ O gráfico de dispersão foi escolhido para representar os resultados de forma c
 Esta visualização destaca as lojas com maiores e menores custos médios de entrega. As informações obtidas podem ser usadas para otimizar os custos logísticos e definir estratégias de precificação mais eficazes, beneficiando tanto os negócios quanto os consumidores.
 
 
-- relatorio = """
+# Solicitação para pressionar Enter
+input("Para gerar o relatório: Pressione (Enter)")
+
+# Exibe o relatório após Enter
+print(relatorio)
+- **Estilo**: Grades leves no eixo Y e paleta gradiente azul para as barras, proporcionando clareza e elegância à visualização.
+
+- - relatorio = """
 Análise de Eficiência da Rede Alura Store
 ------------------------------
 📄 Relatório Final:
@@ -239,11 +246,4 @@ A venda da Loja 1 permitirá que o Senhor João:
 
 Com essa estratégia, o Senhor João estará bem-posicionado para alcançar sucesso em seu novo empreendimento, fortalecendo sua rede Alura Store! 🚀
 ------------------------------
-"""
 
-# Solicitação para pressionar Enter
-input("Para gerar o relatório: Pressione (Enter)")
-
-# Exibe o relatório após Enter
-print(relatorio)
-- **Estilo**: Grades leves no eixo Y e paleta gradiente azul para as barras, proporcionando clareza e elegância à visualização.
